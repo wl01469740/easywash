@@ -16,6 +16,99 @@ a{
 body{
     margin: 0;
 }
+// 圖片相關
+.img-fluid{
+    width: 100%;
+}
+.img-rounded{
+    border-radius: 8px;
+}
+// 文字相關
+.text-center{
+    text-align: center;
+}
+// 區塊相關
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 //===============================================================
 //=================頁首==========================================
 //================================================================
+
+.logo{
+    width: 80%;
+}
+header>.container h1{
+    padding-top: 80px;
+    letter-spacing: 10px;
+}
+header>.container>.row>nav>ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header>.container>.row>nav{
+    width: 100%;
+    margin-bottom: 10px;
+}
+header>.container>.row>nav a{
+    color:black;
+    display: block;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+}
+header>.container>.row>nav a:last-child{
+    border-right: none;
+}
+//===============================================================================
+//=====================================大圖======================================
+//================================================================================
+.banner{
+    width: auto;
+    text-align:center;
+}
+//==================================================================================
+//====================================最新消息=======================================
+//=====================================================================================
+.S1{
+    background-color: #CDF4FF;
+    height: 350px;
+    position: relative;
+}
+.S1>h2{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 1.8em;
+}
+.newspost{
+    display: block;
+}
+.newspost>li{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 80%;
+    border-bottom: 1px solid #2A66AC;
+    display: flex;
+    justify-content: space-around;
+}
+.newspost>li>.product2{
+    padding-right: 120px;
+}
+.newspost>li>.date3{
+    padding-right: 50px;
+}
+.newspost>li>.product3{
+    padding-right: 100px;
+}
+.logo2{
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+}
+.S2>img{
+    
+}
