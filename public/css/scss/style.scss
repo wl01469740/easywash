@@ -60,7 +60,8 @@ header>.container>.row-display-nowrap>nav>ul{
 header>.container>.row-display-nowrap>nav a{
     color:black;
     display: block;
-    padding: 20px;
+    margin-left: 50px;
+    padding-right: 20px;
     font-size: 1.3em;
     text-align: center;
     letter-spacing: 2px;
@@ -192,4 +193,26 @@ header>.container>.row-display-nowrap>nav a{
 footer{
     background-color: #2A66AC;
     padding: 40px 40px 0 40px;
+}
+footer>.container>p{
+    text-align: center;
+}
+footer>.container>.row>.floor1{
+    width: 50%;
+    padding-bottom: 20px;
+}
+footer>.container>.row>.floor1>img{
+    float: left;
+    padding-left: 50px;
+}
+footer>.container>.row>.floor2{
+    width: 50%;
+    padding-bottom: 20px;
+}
+footer>.container>.row>.floor2>img{
+    float: left;
+    padding-left: 50px;
+}
+footer>.container>.row>div>p{
+    color: #fff;
 }
