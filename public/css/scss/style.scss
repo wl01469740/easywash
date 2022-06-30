@@ -194,6 +194,9 @@ footer{
     background-color: #2A66AC;
     padding: 40px 40px 0 40px;
 }
+footer>.container>.row{
+    width: 60%; 
+}
 footer>.container>p{
     text-align: center;
 }
