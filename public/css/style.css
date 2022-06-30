@@ -227,6 +227,7 @@ footer > .container > .row > .floor1 {
 footer > .container > .row > .floor1 > img {
   float: left;
   padding-left: 50px;
+  padding-right: 25px;
 }
 
 footer > .container > .row > .floor2 {
@@ -237,6 +238,7 @@ footer > .container > .row > .floor2 {
 footer > .container > .row > .floor2 > img {
   float: left;
   padding-left: 50px;
+  padding-right: 25px;
 }
 
 footer > .container > .row > div > p {
