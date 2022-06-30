@@ -99,6 +99,7 @@ header > .container > .row-display-nowrap > nav a {
   margin-top: 20px;
   margin-left: 100px;
   width: 80%;
+  padding-bottom: 10px;
   border-bottom: 1px solid #2A66AC;
 }
 
@@ -147,10 +148,8 @@ header > .container > .row-display-nowrap > nav a {
 }
 
 .S2 > .left > img {
-  width: 400px;
   padding-left: 100px;
   padding-top: 20px;
-  z-index: 1;
 }
 
 .S2 > .right {
@@ -166,18 +165,6 @@ header > .container > .row-display-nowrap > nav a {
 .S2 > .right > p {
   padding-left: 50px;
   font-weight: 800;
-}
-
-.icon-circul-blue {
-  width: 50px;
-  position: absolute;
-  border-radius: 100%;
-  border: 1px solid #CDF4FF;
-  background-color: #CDF4FF;
-  padding: 70px;
-  bottom: -10px;
-  left: 90px;
-  z-index: 0;
 }
 
 .S3 {
