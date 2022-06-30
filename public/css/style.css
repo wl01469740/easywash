@@ -45,10 +45,11 @@ body {
 .row-display-nowrap {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 300px;
+  width: 250px;
   padding-top: 10px;
 }
 
@@ -65,12 +66,16 @@ header > .container > .row-display-nowrap > nav > ul {
 header > .container > .row-display-nowrap > nav a {
   color: black;
   display: block;
-  margin-left: 50px;
+  margin-left: 20px;
   padding-right: 20px;
   font-size: 1.3em;
   text-align: center;
   letter-spacing: 2px;
   border-right: 1px solid gray;
+}
+
+header > .container > .row-display-nowrap > nav li:last-child a {
+  border: none;
 }
 
 .banner > img {
@@ -81,10 +86,13 @@ header > .container > .row-display-nowrap > nav a {
 .S1 {
   background-color: #CDF4FF;
   height: 350px;
+}
+
+.S1 > .container {
   position: relative;
 }
 
-.S1 > h2 {
+.S1 > .container > h2 {
   padding-top: 50px;
   padding-left: 100px;
   font-size: 1.8em;
@@ -127,10 +135,10 @@ header > .container > .row-display-nowrap > nav a {
   border-radius: 8px;
 }
 
-.S1 > .logo2 {
+.S1 > .container > .logo2 {
   position: absolute;
   right: 0px;
-  bottom: -70px;
+  bottom: -200px;
   opacity: 0.5;
   width: 20%;
 }
@@ -139,30 +147,30 @@ header > .container > .row-display-nowrap > nav a {
   background-color: #E8FAFF;
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: -1;
 }
 
-.S2 > .left {
+.S2 > .container > .left {
   width: 50%;
   position: relative;
 }
 
-.S2 > .left > img {
-  padding-left: 100px;
+.S2 > .container > .left > img {
+  padding-left: 10px;
   padding-top: 20px;
+  max-width: 400px;
 }
 
-.S2 > .right {
+.S2 > .container > .right {
   width: 50%;
 }
 
-.S2 > .right > h2 {
+.S2 > .container > .right > h2 {
   padding-top: 70px;
   padding-bottom: 30px;
   padding-left: 50px;
 }
 
-.S2 > .right > p {
+.S2 > .container > .right > p {
   padding-left: 50px;
   font-weight: 800;
 }
@@ -172,33 +180,34 @@ header > .container > .row-display-nowrap > nav a {
   padding-top: 20px;
 }
 
-.S3 > .left {
+.S3 > .container > .left {
   width: 50%;
   position: relative;
 }
 
-.S3 > .left > img {
+.S3 > .container > .left > img {
   padding-left: 50px;
   padding-top: 20px;
+  max-width: 300px;
 }
 
-.S3 > .right {
+.S3 > .container > .right {
   width: 50%;
   order: -1;
 }
 
-.S3 > .right > h2 {
+.S3 > .container > .right > h2 {
   padding-left: 150px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.S3 > .right > p {
+.S3 > .container > .right > p {
   padding-left: 150px;
   font-weight: 800;
 }
 
-.S3 > .left > .logo2 {
+.S3 > .container > .left > .logo2 {
   position: absolute;
   right: 0px;
   bottom: -80px;
