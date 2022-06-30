@@ -48,14 +48,8 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 300px;
   padding-top: 10px;
-}
-
-header > .container h1 {
-  padding-top: 60px;
-  letter-spacing: 10px;
-  padding-right: 20px;
 }
 
 header > .container > .row-display-nowrap > nav {
@@ -77,10 +71,6 @@ header > .container > .row-display-nowrap > nav a {
   text-align: center;
   letter-spacing: 2px;
   border-right: 1px solid gray;
-}
-
-header > .container > .row-display-nowrap > nav a:last-child {
-  border-right: none;
 }
 
 .banner > img {
