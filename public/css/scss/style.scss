@@ -125,7 +125,10 @@ header>.container>.row-display-nowrap>nav a:last-child{
     padding: 3px;
     border-radius: 8px;
 }
-.logo2{
+//========================================================================================
+//====================================主打商品=============================================
+//=========================================================================================
+.S1>.logo2{
     position: absolute;
     right: 0px;
     bottom: -70px;
@@ -134,6 +137,8 @@ header>.container>.row-display-nowrap>nav a:last-child{
 }
 .S2{
     background-color: #E8FAFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
     z-index: -1;
 }
 .S2>.left{
@@ -171,11 +176,40 @@ header>.container>.row-display-nowrap>nav a:last-child{
 }
 .S3{
     background-color: #CDF4FF;
+    padding-top: 20px;
 }
 .S3>.left{
     width: 50%;
+    position: relative;
+}
+.S3>.left>img{
+    padding-left: 50px;
+    padding-top: 20px;
 }
 .S3>.right{
     width: 50%;
     order: -1;
+}
+.S3>.right>h2{
+    padding-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.S3>.right>p{
+    padding-left: 150px;
+    font-weight: 800;
+}
+.S3>.left>.logo2{
+    position: absolute;
+    right: 0px;
+    bottom: -80px;
+    opacity: 0.5;
+    width: 50%;
+}
+//================================================================================================
+//===============================頁尾=============================================================
+//================================================================================================
+footer{
+    background-color: #2A66AC;
+    padding: 40px 40px 0 40px;
 }
