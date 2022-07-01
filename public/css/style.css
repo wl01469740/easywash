@@ -201,10 +201,11 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 
   .icon-menu {
+    width: 90px;
     display: block;
     color: #000;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
   }
 
   .icon-menu.active nav {
