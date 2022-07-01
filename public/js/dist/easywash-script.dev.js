@@ -23,6 +23,6 @@ if (windowWidth >= 768) {
   }); // btn-nav-switch end
 
   $('nav>ul>li').on('click', function () {
-    $('.submenu').toggleClass('active');
+    $(this).find('.submenu').toggleClass('active');
   }); // nav>ul>li end
 } //大於等於768執行 end

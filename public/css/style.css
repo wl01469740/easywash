@@ -196,12 +196,16 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 }
 @media (max-width: 767px) {
+  .logo {
+    width: 250px;
+  }
+
   .container {
     width: 100%;
   }
 
   .icon-menu {
-    width: 15%;
+    width: 10%;
     display: block;
     background-color: #CDF4FF;
     color: #000;
@@ -239,6 +243,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
 
   nav {
     left: 0px;
+    z-index: 1;
   }
 
   header > .container > .row-display-nowrap > nav > ul {
@@ -469,6 +474,10 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 }
 @media (max-width: 767px) {
+  .logo2 {
+    display: none;
+  }
+
   .S2 > .container > .col-12 > img {
     width: 100%;
   }
@@ -482,7 +491,8 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 
   .S3 > .container > .col-12 > img {
-    width: 100%;
+    width: 80%;
+    padding-left: 50px;
   }
 
   .S3 > .container > .col-12 > h2 {
