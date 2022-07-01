@@ -275,7 +275,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
     }
     .S1>.container>.newspost>li>.date{
         float: left;
-        padding-right: 50px;
+        padding-right: 40px;
         width: 40%;
     }
     .S1>.container>.newspost>li>.product1{
@@ -291,7 +291,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
         text-align: center;
     }
     .S1>.container>.newspost>li>.news{
-        margin-left: 20px;
+        margin-left: 200px;
     }
 }// 767px以下執行-end
 //========================================================================================
@@ -427,5 +427,9 @@ footer>.container>.row>div>p{
     footer>.container>.row>div>p{
         display: block;
         float: left;
+    }
+    footer>.container>.row>.floor2>.icon-mail{
+        padding: 0;
+        padding-left: 50px;
     }
 }//767px以下執行-end
