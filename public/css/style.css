@@ -126,11 +126,6 @@ body {
   padding-top: 10px;
 }
 
-header > .container > .row-display-nowrap > nav {
-  padding-left: 100px;
-  padding-top: 90px;
-}
-
 header > .container > .row-display-nowrap > nav > ul {
   display: flex;
   justify-content: space-around;
@@ -161,6 +156,11 @@ header > .container > .row-display-nowrap > nav > ul > li {
 }
 
 @media (min-width: 768px) {
+  header > .container > .row-display-nowrap > nav {
+    padding-left: 100px;
+    padding-top: 90px;
+  }
+
   header > .container > .row-display-nowrap > nav > ul > li > .submenu {
     position: absolute;
     background-color: #FFF;
@@ -196,21 +196,15 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 }
 @media (max-width: 767px) {
-  .logo {
-    width: 250px;
-  }
-
   .container {
     width: 100%;
   }
 
   .icon-menu {
-    width: 10%;
     display: block;
-    background-color: #CDF4FF;
     color: #000;
-    line-height: 125px;
     text-align: center;
+    padding-top: 10px;
   }
 
   .icon-menu.active nav {
@@ -232,7 +226,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
     position: absolute;
     display: none;
     top: 125px;
-    background-color: #CDF4FF;
+    background-color: #ccf4ff;
     padding: 0;
     margin: 0;
   }
