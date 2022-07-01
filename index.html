@@ -8,11 +8,16 @@
   <body> 
     <header> 
       <div class="container"> 
-        <div class="row-display-nowrap"><a href="index.html"><img class="logo img-fluid" src="public/images/LOGO3.png" alt=""/></a>
+        <div class="row-display-nowrap"><a href="index.html"><img class="logo img-fluid" src="public/images/LOGO3.png" alt=""/></a><a class="icon-menu" id="btn-nav-switch" href="javascript:;">menu</a>
           <nav> 
             <ul> 
               <li><a href="#">關於我們</a></li>
-              <li><a href="#">產品介紹</a></li>
+              <li><a href="javascript:;">產品介紹</a>
+                <ul class="submenu">
+                  <li> <a href="#">冷氣清洗槽</a></li>
+                  <li> <a href="#">手工具、零件</a></li>
+                </ul>
+              </li>
               <li><a href="#">客戶回饋</a></li>
               <li><a href="#">常見問題</a></li>
             </ul>
@@ -45,8 +50,8 @@
     </div>
     <div class="S2">  
       <div class="container row">
-        <div class="left"><img class="img-fluid" src="public/images/product6.png" alt=""/></div>
-        <div class="right"> 
+        <div class="left col-12"><img class="img-fluid" src="public/images/product6.png" alt=""/></div>
+        <div class="right col-12">
           <h2>真豪洗冷氣清洗槽</h2>
           <p>革命性產品</p>
           <p>完全解決溢水的困擾</p>
@@ -56,8 +61,8 @@
     </div>
     <div class="S3">   
       <div class="container row"> 
-        <div class="left"> <img class="img-fluid" src="public/images/knife2.png" alt=""/><img class="logo2" src="public/images/LOGO2.png" alt=""/></div>
-        <div class="right"> 
+        <div class="left col-12"><img class="img-fluid" src="public/images/knife2.png" alt=""/><img class="logo2" src="public/images/LOGO2.png" alt=""/></div>
+        <div class="right col-12 order-md-1">
           <h2>真豪修邊刀</h2>
           <p>方便攜帶</p>
           <p>好操作</p>
@@ -85,5 +90,7 @@
         <p>copyright</p>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="public/js/easywash-script.js"></script>
   </body>
 </head>

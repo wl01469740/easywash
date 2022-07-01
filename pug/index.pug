@@ -11,12 +11,18 @@ head
             .row-display-nowrap
                 a(href="index.html" )
                     img.logo.img-fluid(src="public/images/LOGO3.png", alt="") 
+                a#btn-nav-switch.icon-menu(href="javascript:;") menu
                 nav 
                     ul 
                         li
                             a(href="#") 關於我們
                         li
-                            a(href="#") 產品介紹
+                            a(href="javascript:;") 產品介紹
+                            ul.submenu
+                                li 
+                                    a(href="#") 冷氣清洗槽
+                                li 
+                                    a(href="#") 手工具、零件
                         li
                             a(href="#") 客戶回饋
                         li
@@ -42,19 +48,19 @@ head
             img.logo2(src="public/images/LOGO2.png", alt="")
     .S2   
         .container.row
-            .left
+            .left.col-12
                 img.img-fluid(src="public/images/product6.png", alt="") 
-            .right 
+            .right.col-12
                 h2 真豪洗冷氣清洗槽
                 p 革命性產品
                 p 完全解決溢水的困擾
                 p 組裝快速省去繁雜工時
     .S3    
         .container.row  
-            .left 
+            .left.col-12
                 img.img-fluid(src="public/images/knife2.png", alt="")
                 img.logo2(src="public/images/LOGO2.png", alt="")
-            .right 
+            .right.col-12.order-md-1
                 h2 真豪修邊刀
                 p 方便攜帶
                 p 好操作
@@ -76,3 +82,6 @@ head
                     img(src="public/images/icon-line.png", alt="")
                     p ID:01469740
             p copyright
+
+    script(src="https://code.jquery.com/jquery-3.6.0.min.js",integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",crossorigin="anonymous")
+    script(src="public/js/easywash-script.js")
