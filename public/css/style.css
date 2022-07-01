@@ -139,7 +139,7 @@ header > .container > .row-display-nowrap > nav > ul {
 header > .container > .row-display-nowrap > nav > ul > li > a {
   color: black;
   display: block;
-  margin-left: 20px;
+  padding-left: 20px;
   padding-right: 20px;
   font-size: 1.3em;
   text-align: center;
@@ -152,7 +152,7 @@ header > .container > .row-display-nowrap > nav li:last-child a {
 }
 
 header > .container > .row-display-nowrap > nav a:hover {
-  background-color: #2A66AC;
+  background-color: #22283a;
   color: #fff;
 }
 
@@ -177,7 +177,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
   header > .container > .row-display-nowrap > nav > ul > li > .submenu > li {
     line-height: 30px;
     text-align: center;
-    border-bottom: 1px solid #2A66AC;
+    border-bottom: 1px solid #22283a;
   }
 
   header > .container > .row-display-nowrap > nav > ul > li > .submenu > li > a {
@@ -187,7 +187,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 
   header > .container > .row-display-nowrap > nav > ul > li > .submenu > li > a:hover {
-    background-color: #2A66AC;
+    background-color: #22283a;
     color: #fff;
   }
 
@@ -273,6 +273,10 @@ header > .container > .row-display-nowrap > nav > ul > li {
   header > .container > .row-display-nowrap > nav > ul > li > .submenu > li > a {
     color: #000;
     display: block;
+  }
+
+  header > .container > .row-display-nowrap > nav > ul > li > .submenu > li > a:hover {
+    color: #FFF;
   }
 }
 .banner > img {
