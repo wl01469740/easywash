@@ -205,7 +205,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
     display: block;
     color: #000;
     text-align: center;
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .icon-menu.active nav {
@@ -214,6 +214,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
 
   header {
     position: relative;
+    padding-bottom: 10px;
   }
 
   .row-display-nowrap {
@@ -284,6 +285,11 @@ header > .container > .row-display-nowrap > nav > ul > li {
   margin-top: 20px;
 }
 
+@media (max-width: 767px) {
+  .banner {
+    display: none;
+  }
+}
 .S1 {
   background-color: #CDF4FF;
 }
@@ -370,27 +376,23 @@ header > .container > .row-display-nowrap > nav > ul > li {
   }
 
   .S1 > .container > .newspost > li > .date {
-    float: left;
-    padding-right: 40px;
-    width: 40%;
+    width: 30%;
   }
 
   .S1 > .container > .newspost > li > .product1 {
+    margin: 0;
+    margin-left: 80px;
     margin-bottom: 5px;
-    float: left;
     width: 40%;
     text-align: center;
   }
 
   .S1 > .container > .newspost > li > .product2 {
+    margin: 0;
+    margin-left: 80px;
     margin-bottom: 5px;
-    float: left;
     width: 40%;
     text-align: center;
-  }
-
-  .S1 > .container > .newspost > li > .news {
-    margin-left: 200px;
   }
 }
 .S2 {
@@ -505,6 +507,8 @@ footer {
 
 footer > .container > p {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 footer > .container > .row > .floor1 {
@@ -554,4 +558,27 @@ footer > .container > .row > div > p {
     padding: 0;
     padding-left: 50px;
   }
+}
+section {
+  background-image: url("public/images/seamlessbg.png");
+  background-repeat: repeat;
+  z-index: -999;
+}
+
+.breadcrumb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+.breadcrumb > a {
+  color: #000;
+}
+
+.breadcrumb > a:hover {
+  color: #2A66AC;
+}
+
+section > .about1 {
+  padding-left: 200px;
 }
