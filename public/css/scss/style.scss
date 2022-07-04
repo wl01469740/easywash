@@ -40,6 +40,16 @@ body{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+@media (min-width:768px) {
+    @for $i from 1 through 12{
+        .col-md-#{$i}{
+            --num: calc(12 / #{$i});
+            width: calc(100% /  var(--num) - 30px);
+            margin: 0px 15px 40px 15px;
+        // 上右下左
+        }
+    }
+}
 @media (max-width:767px) {
     @for $i from 1 through 12{
         .col-#{$i}{
@@ -457,7 +467,7 @@ section{
     z-index: -999;
 }
 .breadcrumb{
-    margin-top: 20px;
+    padding-top: 20px;
     padding:20px 0 20px 100px;
 }
 .breadcrumb>a{
