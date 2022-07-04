@@ -297,8 +297,6 @@ header>.container>.row-display-nowrap>nav>ul>li{
         width: 40%;
         text-align: center;
     }
-    .S1>.container>.newspost>li>.news{
-    }
 }// 767px以下執行-end
 //========================================================================================
 //====================================主打商品=============================================
@@ -419,6 +417,9 @@ footer>.container>.row>.floor2>img{
     padding-left: 50px;
     padding-right: 25px;
 }
+footer>.container>.row>.line>img{
+    padding-left: 52px;
+}
 footer>.container>.row>div>p{
     color: #fff;
 }
@@ -450,14 +451,14 @@ footer>.container>.row>div>p{
 //===================關於我們==================================
 //============================================================
 section{
-    background-image: url('public/images/seamlessbg.png');
+    background-size: 100%;
+    background: url("/public/images/seamless.png");
     background-repeat: repeat;
     z-index: -999;
 }
 .breadcrumb{
-    padding-top: 20px;
-    padding-bottom:20px ;
-    padding-left: 100px;
+    margin-top: 20px;
+    padding:20px 0 20px 100px;
 }
 .breadcrumb>a{
     color: #000;
@@ -467,4 +468,8 @@ section{
 }
 section>.about1{
     padding-left: 200px;
+}
+section>.about1>p{
+    margin-bottom: 0;
+    padding-bottom: 20px;
 }
