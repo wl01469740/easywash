@@ -24,3 +24,5 @@ if( windowWidth >= 768){
         $(this).find('.submenu').toggleClass('active')
     })// nav>ul>li end
 }//大於等於768執行 end
+
+new WOW().init();
