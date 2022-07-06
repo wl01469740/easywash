@@ -606,10 +606,10 @@ section>.container>.product-right>.row h3:hover{
     section>.container>.product-right>.row>.col-md-6,.col-md-4{
         overflow: hidden;
     }
-    section>.container>.product-right>.row img{
+    section>.container>.product-right>.row .img-big{
         transition: all 1s;
     }
-    section>.container>.product-right>.row img:hover{
+    section>.container>.product-right>.row .img-big:hover{
         transform: scale(1.1);
     }
 
