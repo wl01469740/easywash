@@ -466,26 +466,30 @@ section{
     background-repeat: repeat;
     z-index: -999;
 }
-.breadcrumb{
+.breadcrumb>.container{
     padding-top: 20px;
     padding:20px 0 20px 100px;
 }
-.breadcrumb>a{
+.breadcrumb>.container>a{
     color: #000;
     font-size: 1.2em;
 }
-.breadcrumb>a:hover{
+.breadcrumb>.container>a:hover{
     color: #2A66AC;
 }
 section>.about1{
-    padding-left: 200px;
+    padding-left: 180px;
 }
 section>.about1>p{
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    font-weight: 800;
 }
 //超過768px以上執行-start
 @media (min-width:768px){
+    section>.about1>p{
+        font-size: 1.3em;
+    }
     section>.about2>.col-md-4{
         overflow: hidden;
         position: relative;
@@ -497,33 +501,28 @@ section>.about1>p{
         text-align: center;
         position: absolute;
         font-size: 2em;
+        top: 26%;
         transition: all 2s;
         opacity: calc(0);
         z-index: 999;
     }
     section>.about2>.col-md-4>.parts1{
-        top: 20%;
-        left: 25%;
+        left: 29%;
     }
     section>.about2>.col-md-4>.parts2{
-        top: 20%;
-        left: 25%;
+        left: 29%;
     }
     section>.about2>.col-md-4>.parts3{
-        top: 20%;
-        left: 30%;
+        left: 32%;
     }
     section>.about2>.col-md-4>.parts4{
-        top: 20%;
-        left: 35%;
+        left: 39%;
     }
     section>.about2>.col-md-4>.parts5{
-        top: 20%;
-        left: 35%;
+        left: 39%;
     }
     section>.about2>.col-md-4>.parts6{
-        top: 20%;
-        left: 30%;
+        left: 32%;
     }
     section>.about2>.col-md-4:hover img{
         transform: scale(1.2);
@@ -535,11 +534,11 @@ section>.about1>p{
 }
 //767px以下執行-statr
 @media (max-width:767px){
-    .breadcrumb{
-        padding: 20px 0 20px 50px;
+    .breadcrumb>.container{
+        padding: 20px 0 10px 30px;
     }
     section>.about1{
-        padding-left: 50px;
+        padding-left: 20px;
     }
     section>.about1>p{
         padding: 10px;
@@ -550,4 +549,39 @@ section>.about1>p{
     section>.about2>.col-12{
         text-align: center;
     }
+    section>.about2>.col-12>h3{
+        font-size: 1.5em;
+        margin: 0;
+        padding-top: 10px;
+    }
+}
+//============================================================
+//===================商品介紹==================================
+//============================================================
+section>.container{
+    display: flex;
+    justify-content: space-between;
+}
+section>.container>.product-left{
+    width: 20%;
+}
+section>.container>.product-right{
+    width: 80%;
+}
+section>.container>.product-left>dl>dt{
+    margin-bottom: 30px;
+    background-color: #70A8EA;
+    border-radius: 8px;
+}
+section>.container>.product-left>dl>dt>a{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.3em;
+    box-shadow: 2px 2px 3px rgb(75, 75, 75);
+}
+section>.container>.product-left>dl>dt>a:hover{
+    background-color: #22283a;
 }

@@ -23,52 +23,46 @@ head
                                 li 
                                     a(href="product1.html") 冷氣清洗槽
                                 li 
-                                    a(href="#") 手工具
+                                    a(href="javascript:;") 手工具
                                 li 
-                                    a(href="#") 零件
+                                    a(href="javascript:;") 零件
                         li
                             a(href="#") 客戶回饋
                         li
                             a(href="#") 常見問題
     .banner 
         img.img-fluid(src="public/images/product7.png", alt="")
-    .S1
+    section
+        .breadcrumb 
+            .container
+                a(href="index.html") 首頁
+                span &nbsp; &gt; &nbsp;
+                a(href='javascript:;') 產品介紹
+                span &nbsp; &gt; &nbsp;
+                a(href="product1.html") 冷氣清洗槽
         .container
-            h2 最新消息
-            ul.newspost 
-                li 
-                    .date 2022-06-10
-                    .product1 產品資訊
-                    .news 裝修好幫手-壓力板手即將推出,各位師傅們不要錯過喔!
-                li 
-                    .date 2022-05-23
-                    .product2 系統公告
-                    .news 6/1網站將進行維護,不便之處敬請見諒
-                li 
-                    .date 2022-05-10
-                    .product1 產品資訊
-                    .news 四方吹清洗槽即將上市,請各位多多關注官方資訊!
-            img.logo2(src="public/images/LOGO2.png", alt="")
-    .S2   
-        .container.row
-            .left.col-12
-                img.img-fluid(src="public/images/product6.png", alt="") 
-            .right.col-12
-                h2 真豪洗冷氣清洗槽
-                p 革命性產品
-                p 完全解決溢水的困擾
-                p 組裝快速省去繁雜工時
-    .S3    
-        .container.row  
-            .left.col-12
-                img.img-fluid(src="public/images/knife2.png", alt="")
-                img.logo2(src="public/images/LOGO2.png", alt="")
-            .right.col-12.order-md-1
-                h2 真豪修邊刀
-                p 方便攜帶
-                p 好操作
-                p 耐用
-                p 刀頭更換快速
+            .product-left.col-12.col-md-9
+                dl 
+                    dt 
+                        a(href="product1.html") 冷氣清洗槽
+                    dt 
+                        a(href="#") 手工具
+                    dt 
+                        a(href="#") 零件
+            .product-right
+                .row 
+                    .col-12.col-md-6 
+                        a(href="#") 
+                            img.img-fluid(src="public/images/coming-soon.png", alt="")
+                            h3 真豪洗
+                    .col-12.col-md-6 
+                        a(href="#") 
+                            img.img-fluid(src="public/images/coming-soon.png", alt="")
+                            h3 鯨霸
+                    .col-12.col-md-6 
+                        a(href="#") 
+                            img.img-fluid(src="public/images/coming-soon.png", alt="")
+                            h3 四方吹
     footer 
         .container 
             .row 
