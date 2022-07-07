@@ -136,10 +136,11 @@ header>.container>.row-display-nowrap>nav>ul>li{
     }
     .icon-menu{
         width: 50px;
+        height: 50px;
         display: block;
         color: #000;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .icon-menu.active nav{
         display: block;
@@ -274,11 +275,11 @@ header>.container>.row-display-nowrap>nav>ul>li{
     100%{transform:rotate(-20deg);}
 }
 @keyframes logo2-2 {
-    0%{ transform:translate(-50px); }
+    0%{ transform:translate(-30px); }
 
-    50%{transform:translate(50px);}
+    50%{transform:translate(30px);}
 
-    100%{transform:translate(-50px);}
+    100%{transform:translate(-30px);}
 }
 //768px以上執行-start
 @media (min-width:768px) {
@@ -387,7 +388,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
         bottom: -80px;
         opacity: 0.5;
         width: 50%;
-        animation: logo2-2 1s infinite;
+        animation: logo2-2 2s infinite;
     }
 }//超過768px以上執行-end
 //767px以下執行-statr
@@ -602,13 +603,13 @@ section>.container>.product-right>.row h3:hover{
         font-size: 1.3em;
         box-shadow: 2px 2px 3px rgb(75, 75, 75);
     }
-    section>.container>.product-right>.row>.col-md-6,.col-md-4{
+    section>.container>.product-right>.row>.col-md-6>a>.img-big{
         overflow: hidden;
     }
-    section>.container>.product-right>.row .img-big{
+    section>.container>.product-right>.row>.col-md-6>a>.img-big>img{
         transition: all 1s;
     }
-    section>.container>.product-right>.row .img-big:hover{
+    section>.container>.product-right>.row>.col-md-6>a>.img-big>img:hover{
         transform: scale(1.1);
     }
 
