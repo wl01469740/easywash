@@ -25,4 +25,10 @@ if( windowWidth >= 768){
     })// nav>ul>li end
 }//大於等於768執行 end
 
+$('.question-container').on('click', function () {
+    $(this).toggleClass('active')
+    $(this).siblings().removeClass('active')
+})//.question-content end
+
+
 new WOW().init();

@@ -4,8 +4,8 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   title EasyWash 
   link(rel='stylesheet' href='public/css/style.css')
-
-  body 
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
+body 
     header 
         .container 
             .row-display-nowrap
@@ -37,7 +37,29 @@ head
             .container
                 a(href="index.html") 首頁
                 span &nbsp; &gt; &nbsp;
-                a(href='faq.html') 常見問題
+                a(href='faq.html') 常見問題 
+        .container-faq
+            .question-container
+                .question 
+                    h3 問題1
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p 答案1
+            .question-container
+                .question 
+                    h3 問題2
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p 答案2
+            .question-container
+                .question 
+                    h3 問題3
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p 答案3
     footer 
         .container 
             .row 
