@@ -258,20 +258,27 @@ header>.container>.row-display-nowrap>nav>ul>li{
     padding: 3px;
     border-radius: 8px;
 }
-.S1>.container>.logo2{
+.S1>.container>.logo2-1{
     position: absolute;
     right: 0px;
     bottom: -100px;
     opacity: 0.5;
     width: 20%;
-    animation: logo2 1.5s infinite;
+    animation: logo2-1 1.5s infinite;
 }
-@keyframes logo2 {
+@keyframes logo2-1 {
     0%{ transform:rotate(-20deg); }
 
     50%{transform:rotate(40deg);}
 
     100%{transform:rotate(-20deg);}
+}
+@keyframes logo2-2 {
+    0%{ transform:translate(-50px); }
+
+    50%{transform:translate(50px);}
+
+    100%{transform:translate(-50px);}
 }
 //768px以上執行-start
 @media (min-width:768px) {
@@ -282,7 +289,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
 }//768px以上執行-end
 // 767px以下執行-statr
 @media(max-width:767px) {
-    .logo2{
+    .logo2-1{
         display: none;
     }
     .S1>.container>h2{
@@ -374,18 +381,18 @@ header>.container>.row-display-nowrap>nav>ul>li{
         padding-left: 150px;
         font-weight: 800;
     }
-    .S3>.container>.left>.logo2{
+    .S3>.container>.left>.logo2-2{
         position: absolute;
         right: 0px;
         bottom: -80px;
         opacity: 0.5;
         width: 50%;
-        animation: logo2 1s infinite;
+        animation: logo2-2 1s infinite;
     }
 }//超過768px以上執行-end
 //767px以下執行-statr
 @media (max-width:767px){
-    .logo2{
+    .logo2-2{
         display: none;
     }
     .S2>.container>.col-12>img{
@@ -511,27 +518,10 @@ section>.about1>p{
         position: absolute;
         font-size: 2em;
         top: 26%;
+        left: 38%;
         transition: all 2s;
         opacity: calc(0);
         z-index: 999;
-    }
-    section>.about2>.col-md-4>.parts1{
-        left: 29%;
-    }
-    section>.about2>.col-md-4>.parts2{
-        left: 29%;
-    }
-    section>.about2>.col-md-4>.parts3{
-        left: 32%;
-    }
-    section>.about2>.col-md-4>.parts4{
-        left: 39%;
-    }
-    section>.about2>.col-md-4>.parts5{
-        left: 39%;
-    }
-    section>.about2>.col-md-4>.parts6{
-        left: 32%;
     }
     section>.about2>.col-md-4:hover img{
         transform: scale(1.2);
