@@ -419,8 +419,20 @@ header > .container > .row-display-nowrap > nav > ul > li {
   bottom: -100px;
   opacity: 0.5;
   width: 20%;
+  animation: logo2 1.5s infinite;
 }
 
+@keyframes logo2 {
+  0% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
 @media (min-width: 768px) {
   .newspost > li > .date {
     padding-left: 100px;
@@ -541,6 +553,7 @@ header > .container > .row-display-nowrap > nav > ul > li {
     bottom: -80px;
     opacity: 0.5;
     width: 50%;
+    animation: logo2 1s infinite;
   }
 }
 @media (max-width: 767px) {

@@ -264,6 +264,14 @@ header>.container>.row-display-nowrap>nav>ul>li{
     bottom: -100px;
     opacity: 0.5;
     width: 20%;
+    animation: logo2 1.5s infinite;
+}
+@keyframes logo2 {
+    0%{ transform:rotate(-20deg); }
+
+    50%{transform:rotate(40deg);}
+
+    100%{transform:rotate(-20deg);}
 }
 //768px以上執行-start
 @media (min-width:768px) {
@@ -372,6 +380,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
         bottom: -80px;
         opacity: 0.5;
         width: 50%;
+        animation: logo2 1s infinite;
     }
 }//超過768px以上執行-end
 //767px以下執行-statr
