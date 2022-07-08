@@ -794,6 +794,10 @@ section > .container > .product-right > .row h3:hover {
   color: gray;
 }
 
+section > .container > .product-right > .row a {
+  color: red;
+}
+
 @media (min-width: 768px) {
   section > .container > .product-left > dl > dt {
     margin-bottom: 30px;
@@ -861,7 +865,7 @@ section > .container > .product-right > .row h3:hover {
 .question-container {
   border: 1px solid #2A66AC;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 20px;
   padding: 10px 40px 10px 10px;
   cursor: pointer;
