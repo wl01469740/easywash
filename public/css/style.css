@@ -688,7 +688,10 @@ section > .about1 {
 
 section > .about1 > p {
   margin-bottom: 0;
-  padding-bottom: 40px;
+}
+
+section > .about1 > p:last-child {
+  margin-bottom: 40px;
   font-weight: 800;
 }
 
