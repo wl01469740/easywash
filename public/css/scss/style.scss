@@ -9,6 +9,7 @@ ul{
     list-style-type: none;
 }
 a{
+    color:black;
     text-decoration: none;
 }
 .container{
@@ -68,12 +69,33 @@ body{
     width:250px;
     padding-top: 10px;
 }
-header>.container>.row-display-nowrap>nav>ul{
+header>.container>.row-display-nowrap>.topcomposing>.language>ul{
+    display: flex;
+    justify-content: end;
+}
+header>.container>.row-display-nowrap>.topcomposing>.language>ul>li>a{
+    color: #000;
+    display: block;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-right: 1px solid gray;
+}
+header>.container>.row-display-nowrap>.topcomposing>.language li:last-child a{
+    border: none;
+}
+header>.container>.row-display-nowrap>.topcomposing>.language a:hover{
+    background-color: #22283a;
+    color:#fff;
+}
+header>.container>.row-display-nowrap>.topcomposing>nav>ul{
     display: flex;
     justify-content: space-around;
 
 }
-header>.container>.row-display-nowrap>nav>ul>li>a{
+header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>a{
     color:black;
     display: block;
     padding-left: 20px;
@@ -83,23 +105,23 @@ header>.container>.row-display-nowrap>nav>ul>li>a{
     letter-spacing: 2px;
     border-right: 1px solid gray;
 }
-header>.container>.row-display-nowrap>nav li:last-child a{
+header>.container>.row-display-nowrap>.topcomposing>nav li:last-child a{
     border: none;
 }
-header>.container>.row-display-nowrap>nav a:hover{
+header>.container>.row-display-nowrap>.topcomposing>nav a:hover{
     background-color: #22283a;
     color:#fff;
 }
-header>.container>.row-display-nowrap>nav>ul>li{
+header>.container>.row-display-nowrap>.topcomposing>nav>ul>li{
     position: relative;
 }
 //超過768px以上執行-start
 @media (min-width:768px) {
-    header>.container>.row-display-nowrap>nav{
+    header>.container>.row-display-nowrap>.topcomposing>nav{
         padding-left: 100px;
         padding-top: 90px;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu{
         position: absolute;
         background-color: #FFF;
         width: 100%;
@@ -107,20 +129,20 @@ header>.container>.row-display-nowrap>nav>ul>li{
         top:28px;
         display: none;
     }
-    header>.container>.row-display-nowrap>nav>ul>li:hover .submenu{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li:hover .submenu{
         display: block;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li{
         line-height: 30px;
         text-align: center;
         border-bottom: 1px solid #22283a;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li>a{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li>a{
         display: block;
         padding: 5px;
         color: #000;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li>a:hover{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li>a:hover{
         background-color: #22283a;
         color:#fff;
     }
@@ -154,7 +176,7 @@ header>.container>.row-display-nowrap>nav>ul>li{
         flex-wrap: wrap;
         justify-content: center;
     }
-    header>.container>.row-display-nowrap>nav{
+    header>.container>.row-display-nowrap>.topcomposing>nav{
         width: 100%;
         position: absolute;
         display: none;
@@ -163,41 +185,41 @@ header>.container>.row-display-nowrap>nav>ul>li{
         padding: 0;
         margin: 0;
     }
-    header>.container>.row-display-nowrap>nav.active{
+    header>.container>.row-display-nowrap>.topcomposing>nav.active{
         display: block;
     }
     nav{
         left: 0px;
         z-index: 1;
     }
-    header>.container>.row-display-nowrap>nav>ul{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul{
         display: block;
     }
-    header>.container>.row-display-nowrap>nav>ul>li{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li{
         width: 100%;
         border-bottom: 1px solid #ffffff;
         text-align: center;
         padding: 8px;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>a{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>a{
         display: block;
         border-right: none;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu{
         background-color: #CDF4FF;
         display: none;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu.active{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu.active{
         display: block;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li{
         line-height: 40px;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li>a{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li>a{
         color: #000;
         display: block;
     }
-    header>.container>.row-display-nowrap>nav>ul>li>.submenu>li>a:hover{
+    header>.container>.row-display-nowrap>.topcomposing>nav>ul>li>.submenu>li>a:hover{
         color: #FFF;
     }
 }//767px以下執行-end
