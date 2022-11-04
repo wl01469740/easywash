@@ -354,9 +354,15 @@ header>.container>.row-display-nowrap>.topcomposing>nav>ul>li{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.S2>.container>.right>h2>a:hover{
+    color: #2A66AC;
+}
 .S3{
     background-color: #CDF4FF;
     padding-top: 20px;
+}
+.S3>.container>.right>h2>a:hover{
+    color: #2A66AC;
 }
 //超過768px以上執行-start
 @media (min-width:768px){

@@ -4,12 +4,12 @@ head
   meta(name='viewport' content='width=device-width, initial-scale=1.0')
   title EasyWash 
   link(rel='stylesheet' href='public/css/style.css')
-
+  link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css")
 body 
     header 
         .container 
             .row-display-nowrap
-                a(href="index.html" )
+                a(href="index_en.html" )
                     img.logo.img-fluid(src="public/images/LOGO3.png", alt="") 
                 a#btn-nav-switch.icon-menu(href="javascript:;")
                     img(src="public/images/menu.svg", alt="")
@@ -17,42 +17,58 @@ body
                     .language
                         ul 
                             li 
-                                a(href="client.html") 繁體中文
+                                a(href="faq.html") 繁體中文
                             li 
                                 a(href="index.html") 日本語
                             li 
-                                a(href="client_en.html") English
+                                a(href="faq_en.html") English
                     nav 
                         ul 
                             li
-                                a(href="about_us.html") 關於我們
+                                a(href="about_us_en.html") About us
                             li
-                                a(href="javascript:;") 產品介紹
+                                a(href="javascript:;") Product
                                 ul.submenu
                                     li 
-                                        a(href="product1.html") 冷氣清洗槽
+                                        a(href="product1_en.html") A/C Cleaning tank
                                     li 
-                                        a(href="product2.html") 手工具
+                                        a(href="product2_en.html") Tools
                                     li 
-                                        a(href="product3.html") 零件
+                                        a(href="product3_en.html") Parts
                             li
-                                a(href="client.html") 客戶回饋
+                                a(href="client_en.html") Client
                             li
-                                a(href="faq.html") 常見問題
+                                a(href="faq_en.html") Question
     .banner 
         img.img-fluid(src="public/images/product8.png", alt="")
     section
         .breadcrumb 
             .container
-                a(href="index.html") 首頁
+                a(href="index_en.html") Front
                 span &nbsp; &gt; &nbsp;
-                a(href='client.html') 客戶回饋
-        .container 
-            .row 
-                .col-md-4.col-12 
-                    img.img-fluid(src="public/images/client1.png", alt="")
-                .col-md-4.col-12 
-                    img.img-fluid(src="public/images/client2.png", alt="")
+                a(href='faq_en.html') Question 
+        .container-faq
+            .question-container
+                .question 
+                    h3 How to buy
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p There are sales channels in all air-conditioning and cooling material stores in Taiwan. There are also stores where you can buy them on the Internet!
+            .question-container
+                .question 
+                    h3 What should I do if some parts are broken
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p Contact the store where you originally purchased, if you need to change what shop owner will help you order goods!
+            .question-container
+                .question 
+                    h3 I'm a dealer, what is the pipeline for the purchase
+                    .icon-arrow 
+                        i.fa-solid.fa-angle-down
+                .answer 
+                    p You can get in touch via the email address at the bottom of the page!
     footer 
         .container 
             .row 
